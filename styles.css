@@ -9,6 +9,7 @@ h2{
 
 
 .backgroundImage{
+  @extend .responsive;
   background-image: url('M&W sasla set.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
