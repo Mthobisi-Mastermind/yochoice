@@ -7,9 +7,11 @@ h2{
 	border-radius: 40% 40% 40% 40%;	
 }
 
-
+body{
+	font-size: 20px;
+	}
 .backgroundImage{
-  @extend .responsive;
+	
   background-image: url('M&W sasla set.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
