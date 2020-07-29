@@ -38,12 +38,13 @@ body{
  	overflow-x: hidden;
  	padding: 8px 0;
  	border-radius: 20% 0 0 20%;
+ 	font-size: 20px;
 }
 
 .sidenav a {
  	padding: 6px 8px 6px 16px;
  	text-decoration: none;
- 	font-size: 25px;
+ 	font-size: 20px;
  	color: Aqua;
  	display: block;
 }
@@ -70,7 +71,14 @@ body{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
+}
+
+@media screen and (max-width:600px){
+	topnav a {
+		float: none;
+		width: 100%;
+	}
 }
 
 .topnav a:hover {
