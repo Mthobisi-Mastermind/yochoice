@@ -30,11 +30,12 @@ div.desc {
 @media only screen and (max-width: 800px) {
 	
 	body{
-	font-size:25;
+	font-size:18px;
 	}
 	
   .responsive {
     width: 39.99999%;
+    float: left;
     margin: 6px 0;
   }
 }
@@ -50,6 +51,3 @@ div.desc {
   display: table;
   clear: both;
 }
-
-
-

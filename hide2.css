@@ -3,7 +3,7 @@
   background-color: Bisque;
   color: Black;
   cursor: pointer;
-  padding: 18px;
+  padding: 57px 0px;
   width: 50%;
   border: none;
   text-align: center;
@@ -21,6 +21,7 @@
   font-weight: bold;
   float: right;
   margin-left: 5px;
+ 
 }
 
 .active:after {
