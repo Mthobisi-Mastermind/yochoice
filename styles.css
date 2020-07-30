@@ -10,6 +10,7 @@ h2{
 body{
 	font-size: 20px;
 	}
+	
 .backgroundImage{
 	
   background-image: url('M&W sasla set.jpg');
@@ -19,6 +20,10 @@ body{
 }
 
 @media only screen and (min-width: 400px) {
+	body{
+	font-size:25px;
+	}
+	
     .backgroundImage { 
         background-image: url('kitchenSet.jpg'); 
         background-repeat: no-repeat;

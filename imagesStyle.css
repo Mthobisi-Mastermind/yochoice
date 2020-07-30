@@ -27,16 +27,16 @@ div.desc {
   width: 19.99999%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .responsive {
     width: 79.99999%;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   .responsive {
-    width: 80%;
+    width: 79.99999%;
   }
 }
 
