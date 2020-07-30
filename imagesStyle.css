@@ -28,6 +28,11 @@ div.desc {
 }
 
 @media only screen and (max-width: 1000px) {
+	
+	body{
+	font-size:25;
+	}
+	
   .responsive {
     width: 79.99999%;
     margin: 6px 0;
