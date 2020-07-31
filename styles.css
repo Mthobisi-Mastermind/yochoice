@@ -19,7 +19,7 @@ body{
   background-size: contain;
 }*/
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 790px) {
 	
 	body{
 		font-size:40px;
