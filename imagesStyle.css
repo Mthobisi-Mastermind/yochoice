@@ -22,27 +22,22 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 5px 2px;
   float: left;
-  width: 19.99999%;
+  width: 25%;
 }
 
-@media only screen and (max-width: 800px) {
-	
-	body{
-	font-size:18px;
-	}
-	
+@media only screen and (max-width: 790px) {	
   .responsive {
-    width: 39.99999%;
+    width: 50%;
     float: left;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .responsive {
-    width: 79.99999%;
+    width: 100%;
   }
 }
 
@@ -51,3 +46,4 @@ div.desc {
   display: table;
   clear: both;
 }
+

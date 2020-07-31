@@ -8,29 +8,32 @@ h2{
 }
 
 body{
-	font-size: 18px;
+	font-size: 20px;
 	}
 	
-.backgroundImage{
+/*.backgroundImage{
 	
   background-image: url('M&W sasla set.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
+}*/
+
+@media only screen and (max-width: 750px) {
+	
+	body{
+		font-size:25px;
+	}
 }
 
-@media only screen and (min-width: 400px) {
-	body{
-	font-size:25px;
-	}
-	
-    .backgroundImage { 
+.backgroundImage { 
         background-image: url('kitchenSet.jpg'); 
         background-repeat: no-repeat;
   		background-attachment: fixed;
-  		background-size: contain;
+  		background-size: cover;
+  		background-position: center center;
    }
-}
+
 							
 .sidenav {
 	width: 20%;
@@ -103,7 +106,7 @@ body{
 }
 
 .mainPadding{
-	padding-top: 50px;
+	padding-top: 55px;
 }
 
 
