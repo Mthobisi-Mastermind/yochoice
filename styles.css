@@ -19,15 +19,10 @@ body{
   background-size: contain;
 }*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 760px) {
 	
 	body{
 		font-size:40px;
-	}
-	
-	.backgroundImage{
-	
-		background-size:contain;
 	}
 }
 
@@ -67,7 +62,7 @@ body{
 }
 				
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 760px) {
 	.sidenav {padding-top: 15px;}
   	.sidenav a {font-size: 20px;}
 }
@@ -87,7 +82,7 @@ body{
   font-size: 20px;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:760px){
 	topnav a {
 		float: none;
 		width: 80%;
