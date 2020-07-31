@@ -22,7 +22,7 @@ body{
 @media only screen and (max-width: 800px) {
 	
 	body{
-		font-size:25px;
+		font-size:40px;
 	}
 	
 	.backgroundImage{
@@ -35,7 +35,7 @@ body{
         background-image: url('kitchenSet.jpg'); 
         background-repeat: no-repeat;
   		background-attachment: fixed;
-  		background-size: cover;
+  		background-size: contain;
   		background-position: center center;
    }
 
