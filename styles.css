@@ -91,27 +91,18 @@ body{
 	color:#11CB41;
 }
 
-@media only screen and (max-width: 800px){
-	
-	.topnav{
-		width: 80%;		
-	}
-	
-	.topnav a{
-		display: inline-block;
-	}
-	
-	.sidenav{
-		width: 30%;
-	}
-	
-	.sidenav a{
-		display: inline-block;
-	}
-	
-}
-
 .mainPadding{
 	
 	padding-top: 55px;
+}
+
+@media only screen and (max-width: 800px){
+	.sidenav{
+	width: 30%;
+	height: 40%;
+	}
+	
+	.topnav{
+	width: 70%
+	}
 }
