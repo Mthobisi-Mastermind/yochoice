@@ -102,7 +102,19 @@ body{
 	height: 40%;
 	}
 	
+	.sidenav a {
+		font-size: 30px;
+	}
+	
 	.topnav{
-	width: 70%
+		width: 70%
+	}
+	
+	.topnav a{
+		font-size: 30px;
+	}
+	
+	body{
+		font-size: 30px;
 	}
 }
