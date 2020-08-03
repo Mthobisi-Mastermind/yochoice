@@ -103,13 +103,13 @@ body{
 	}
 	
 	.sidenav{
-		width: 27%;
-		border-radius: 50% 0 0 50%;
-		padding-top: 
+		width: 20%;
+		border-radius: 10% 0 0 10%;
+		padding-top: 5px;
 	}
 	
 	.topnav{
-		width: 70%
+		width: 75%
 	}
 	
 	.topnav a{
