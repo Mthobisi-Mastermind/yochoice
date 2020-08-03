@@ -63,20 +63,6 @@ body{
 .sidenav a:hover {
 	color: #064579;
 }
-				
-
-@media only screen and (max-width: 900px) {
-	
-	.sidenav {
-		padding-top: 15px;
-		font-size: 30px;
-		height: 40%;
-	}
-
-  	.sidenav a {
-  		font-size: 30px;
-  	}
-}
 
 .topnav {
 	
@@ -97,15 +83,10 @@ body{
 
 @media only screen and (max-width: 900px){
 	.topnav a {
-		float: none;
-		font-size: 35px;
+		float: left;
+		font-size: 20px;
 	}
-	
-	.topnav{
-		width: 80%;
-		height: 40%;
-	}
-}
+
 
 .topnav a:hover {
 	

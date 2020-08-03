@@ -40,16 +40,3 @@
   background-color: #f1f1f1;
   width: 80%;
 }
-
-
-@media only screen and (max-width: 900px){
-	
-	.collapsible{
-		font-size: 30px;
-	}
-	
-	.content{
-		font-size: 30px;
-	}
-	
-}
