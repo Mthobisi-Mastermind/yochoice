@@ -1,5 +1,6 @@
 @charset "ISO-8859-1";
 .collapsible {
+	
   background-color: Black;
   color: Bisque;
   cursor: pointer;
@@ -12,10 +13,12 @@
 }
 
 .active, .collapsible:hover {
+	
   background-color: CadetBlue;
 }
 
 .collapsible:after {
+	
   content: '\002B';
   color: DarkBlue;
   font-weight: bold;
@@ -24,10 +27,12 @@
 }
 
 .active:after {
+	
   content: "\2212";
 }
 
 .content {
+	
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;

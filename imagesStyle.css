@@ -8,11 +8,13 @@ div.gallery:hover {
 }
 
 div.gallery img {
+	
   width: 100%;
   height: auto;
 }
 
 div.desc {
+	
   padding: 15px;
   text-align: center;
 }
@@ -22,12 +24,14 @@ div.desc {
 }
 
 .responsive {
+	
   padding: 5px 2px;
   float: left;
   width: 49.9999%;
 }
 
 @media only screen and (max-width: 900px) {	
+	
   .responsive {
     width: 49.9999%;
     float: left;
@@ -36,12 +40,14 @@ div.desc {
 }
 
 @media only screen and (max-width: 500px) {
+	
   .responsive {
     width: 100%;
   }
 }
 
 .clearfix:after {
+	
   content: "";
   display: table;
   clear: both;
