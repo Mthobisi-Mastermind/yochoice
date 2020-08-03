@@ -72,6 +72,7 @@ body{
   padding: 8px 10px;
   text-decoration: none;
   font-size: 17px;
+  display: block;
 }
 
 .topnav a:hover {
@@ -88,6 +89,26 @@ body{
 
 .sale{	
 	color:#11CB41;
+}
+
+@media only screen and (max-width: 800px){
+	
+	.topnav{
+		width: 100%;		
+	}
+	
+	.topnav a{
+		display: inline-block;
+	}
+	
+	.sidenav{
+		width: 20%;
+	}
+	
+	.sidenav a{
+		display: inline-block;
+	}
+	
 }
 
 .mainPadding{
