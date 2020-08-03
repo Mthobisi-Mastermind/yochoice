@@ -24,18 +24,18 @@ div.desc {
 .responsive {
   padding: 5px 2px;
   float: left;
-  width: 25%;
+  width: 49.9999%;
 }
 
-@media only screen and (max-width: 790px) {	
+@media only screen and (max-width: 900px) {	
   .responsive {
-    width: 50%;
+    width: 49.9999%;
     float: left;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
   }
