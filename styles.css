@@ -103,7 +103,9 @@ body{
 	}
 	
 	.sidenav{
-		width: 30%;
+		width: 27%;
+		border-radius: 50% 0 0 50%;
+		padding-top: 
 	}
 	
 	.topnav{
@@ -116,5 +118,9 @@ body{
 	
 	body{
 		font-size: 20px;
+	}
+	
+	.mainPadding{
+		padding-top: 85;
 	}
 }
