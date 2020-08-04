@@ -14,6 +14,16 @@
 		<link rel = stylesheet href = "dropdown.css">
 		<title>YoChoice</title>
 		
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+</style>
+		
 
 	</head>
 	
@@ -56,6 +66,11 @@
       			<i class="fa fa-caret-down"></i>
     			</button>
    			 <div class="dropdown-content">
+   			 		
+   			 					<button onclick="myFunction()">Open/Close</button>
+
+			<div id="myDIV">
+
      		 	
 					YoChoice is a newly founded company based in Western Cape,<br>
 					in the heart of Garden Route, George. <br><br>
@@ -95,7 +110,7 @@
         			<li>Mthobisi Mahlangu</li>
         			<li>Mandy Kobi </li>  
         			</ul>   			
-     		 
+     		 </div>
     		</div>
   			</div>
   			
@@ -104,6 +119,10 @@
     			  <i class="fa fa-caret-down"></i>
     			</button>
     			<div class="dropdown-content">
+    			
+    	<button onclick="myFunction()">Open/Close</button>
+
+			<div id="myDIV">
      			 	
 			For now the page is mainly for giving you a better catalogue viewing <br>
 			experience, so currently we offer direct ordering as we don't want you <br>
@@ -126,9 +145,13 @@
 				</ul>
 				<br>
 			<strong>Inbox on facebook</strong>
-				<ul><li>Mandy Othimna Kobi</span></li>
+				<ul><li>Mandy Othimna Kobi</li>
+				
+				</ul>
+				
+				</div>
      			 
-   				 </div>
+   			</div>
   			</div>
   
   
@@ -137,7 +160,10 @@
   			  <button class="dropbtn">Payment methods 
   			    <i class="fa fa-caret-down"></i>
   			  </button>
-    		<div class="dropdown-content">     		 
+    		<div class="dropdown-content">   
+    		  			 					<button onclick="myFunction()">Open/Close</button>
+
+			<div id="myDIV">  		 
      		 	
      		 	<strong>All of our payments are made once you have received your order.</strong><br>
 			<ul>
@@ -171,6 +197,7 @@
 				     for the items below R500 is expected on delivery.</li>
 				 
 			</ul>
+			</div>
    			 </div>
   			</div>
   			
@@ -178,13 +205,17 @@
   			  <button class="dropbtn">Delivery 
   			    <i class="fa fa-caret-down"></i>
   			  </button>
-    		<div class="dropdown-content">  
+    		<div class="dropdown-content"> 
+    		
+    		  			 					<button onclick="myFunction()">Open/Close</button>
+
+			<div id="myDIV"> 
     			
     			We delivery straight to the provided address <strong>for free</strong>.
     			 Our delivery waiting period after<br> 
 				placing an order mainly depends on our supplier. But we normal update the client<br>
 				within 24 hours once we get feedback from our supplier.<br><br>   		 
-     		 
+     		 </div>
    			 </div>
   			</div>
   			
@@ -192,7 +223,10 @@
   			  <button class="dropbtn">Contact us 
   			    <i class="fa fa-caret-down"></i>
   			  </button>
-    		<div class="dropdown-content">     		 
+    		<div class="dropdown-content">   
+    		  			 					<button onclick="myFunction()">Open/Close</button>
+
+			<div id="myDIV">  		 
      		 	
      		 	Whatsapp or tel :<br>
 				<li>Mthobisi @ +2773 020 8371</li>
@@ -211,6 +245,7 @@
 			LinkedIn:
 			<li><a  target = "_blank" href = "http://www.linkedin.com/in/mthobisi-mahlangu">
 							 Mthobisi Mahlangu</a>	</li> 	
+				</div>
    			 </div>
   			</div>
 		
@@ -1224,16 +1259,17 @@
 			}
 		</script>
 		
-		<script>
-			var closebtns = document.getElementsByClassName("close");
-			var i;
-
-			for (i = 0; i < closebtns.length; i++) {
-		 	 closebtns[i].addEventListener("click", function() {
-		   	 this.parentElement.style.display = 'none';
-		  	});
-			}
+	<script>
+		function myFunction() {
+ 		 var x = document.getElementById("myDIV");
+ 		 if (x.style.display === "none") {
+ 		   x.style.display = "block";
+  		} else {
+  			  x.style.display = "none";
+  		}
+		}
 		</script>
+
 		
 
 	</body>
