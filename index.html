@@ -14,16 +14,7 @@
 		<link rel = stylesheet href = "dropdown.css">
 		<title>YoChoice</title>
 		
-<style>
-#myDIV {
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
-  background-color: lightblue;
-  margin-top: 20px;
-}
-</style>
-		
+
 
 	</head>
 	
@@ -67,7 +58,7 @@
     			</button>
    			 <div class="dropdown-content">
    			 		
-   			 					<button onclick="myFunction()">Open/Close</button>
+   		<button onclick="myFunction()">Open/Close</button>
 
 			<div id="myDIV">
 
@@ -120,9 +111,9 @@
     			</button>
     			<div class="dropdown-content">
     			
-    	<button onclick="myFunction()">Open/Close</button>
+    	<button onclick="myFunction1()">Open/Close</button>
 
-			<div id="myDIV">
+			<div id="myDIV1">
      			 	
 			For now the page is mainly for giving you a better catalogue viewing <br>
 			experience, so currently we offer direct ordering as we don't want you <br>
@@ -161,9 +152,9 @@
   			    <i class="fa fa-caret-down"></i>
   			  </button>
     		<div class="dropdown-content">   
-    		  			 					<button onclick="myFunction()">Open/Close</button>
+    		  			 					<button onclick="myFunction2()">Open/Close</button>
 
-			<div id="myDIV">  		 
+			<div id="myDIV2">  		 
      		 	
      		 	<strong>All of our payments are made once you have received your order.</strong><br>
 			<ul>
@@ -207,9 +198,9 @@
   			  </button>
     		<div class="dropdown-content"> 
     		
-    		  			 					<button onclick="myFunction()">Open/Close</button>
+    		  			 					<button onclick="myFunction3()">Open/Close</button>
 
-			<div id="myDIV"> 
+			<div id="myDIV3"> 
     			
     			We delivery straight to the provided address <strong>for free</strong>.
     			 Our delivery waiting period after<br> 
@@ -224,9 +215,9 @@
   			    <i class="fa fa-caret-down"></i>
   			  </button>
     		<div class="dropdown-content">   
-    		  			 					<button onclick="myFunction()">Open/Close</button>
+    		  			 					<button onclick="myFunction4()">Open/Close</button>
 
-			<div id="myDIV">  		 
+			<div id="myDIV4">  		 
      		 	
      		 	Whatsapp or tel :<br>
 				<li>Mthobisi @ +2773 020 8371</li>
@@ -1268,9 +1259,51 @@
   			  x.style.display = "none";
   		}
 		}
-		</script>
-
-		
+	</script>
+	
+	<script>
+		function myFunction1() {
+ 		 var x = document.getElementById("myDIV1");
+ 		 if (x.style.display === "none") {
+ 		   x.style.display = "block";
+  		} else {
+  			  x.style.display = "none";
+  		}
+		}
+	</script>
+	
+	<script>
+		function myFunction2() {
+ 		 var x = document.getElementById("myDIV2");
+ 		 if (x.style.display === "none") {
+ 		   x.style.display = "block";
+  		} else {
+  			  x.style.display = "none";
+  		}
+		}
+	</script>
+	
+	<script>
+		function myFunction3() {
+ 		 var x = document.getElementById("myDIV3");
+ 		 if (x.style.display === "none") {
+ 		   x.style.display = "block";
+  		} else {
+  			  x.style.display = "none";
+  		}
+		}
+	</script>
+	
+	<script>
+		function myFunction4() {
+ 		 var x = document.getElementById("myDIV4");
+ 		 if (x.style.display === "none") {
+ 		   x.style.display = "block";
+  		} else {
+  			  x.style.display = "none";
+  		}
+		}
+	</script>		
 
 	</body>
 </html>
