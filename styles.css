@@ -31,7 +31,7 @@ body{
 							
 .sidenav {
 	
-	width: 25%;
+	width: 20%;
  	position: fixed;
  	z-index: 1;
  	top: 20px;
@@ -41,27 +41,28 @@ body{
  	overflow-x: hidden;
  	padding: 8px 0;
  	border-radius: 20% 0 0 20%;
- 	font-size: 17px;
+ 	font-size: 19px;
 }
 
 .sidenav a {
 	
  	padding: 5px 8px 5px 8px;
  	text-decoration: none;
- 	font-size: 17px;
+ 	font-size: 20px;
  	color: Aqua;
  	display: block;
+ 	text-align: center;
 }
 
 .sidenav a:hover {
 	color: #064579;
 }
-
+/*
 .topnav {
   width: 75%;
   overflow: hidden;
   background-color: #333;
-  position:fixed;
+  position: fixed;
 }
 
 .topnav a {
@@ -85,7 +86,7 @@ body{
 	
   background-color: #4CAF50;
   color: white;
-}
+}*/
 
 .sale{	
 	color:#11CB41;
@@ -100,6 +101,7 @@ body{
 	
 	.sidenav a {
 		font-size: 15px;
+		text-align: left;
 	}
 	
 	.sidenav{
