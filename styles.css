@@ -20,8 +20,9 @@ body{
 }*/
 
 .backgroundImage { 
-	
-        background-image: url('kitchenSet.jpg'); 
+		width: 100%;
+		height: auto;
+        background-image: url('webImage2.jpg'); 
         background-repeat: no-repeat;
   		background-attachment: fixed;
   		background-size: contain;
@@ -123,6 +124,6 @@ body{
 	}
 	
 	.mainPadding{
-		padding-top: 30%;
+		padding-top: 15%;
 	}
 }
