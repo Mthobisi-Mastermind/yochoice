@@ -28,6 +28,14 @@ body{
   		background-size: cover;
   		/*background-position: center center;*/
    }
+   
+@media only screen and (max-width: 900px){
+  	.backgroundImage {
+  		background-image: none;
+  	}
+  }
+   
+ 
 
 							
 .sidenav {
