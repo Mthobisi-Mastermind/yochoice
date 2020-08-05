@@ -73,6 +73,14 @@
   border: 1px solid red;
 }
 
+.Home{
+	padding: 8px 10px;
+	background-color: #f9f9f9;
+	text-align: center;
+	width: 37%;
+	margin: auto;
+}
+
 .dropdown-content a {
   float: none;
   color: blue;
@@ -99,4 +107,3 @@
   margin-top: 20px;
 }
 		
-
