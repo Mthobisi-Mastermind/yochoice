@@ -81,6 +81,12 @@
 	margin: auto;
 }
 
+@media only screen and (max-width: 900px){
+	.Home{
+		width: 100%;
+	}
+}
+
 .dropdown-content a {
   float: none;
   color: blue;
