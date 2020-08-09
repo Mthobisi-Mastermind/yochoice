@@ -42,3 +42,9 @@
   background-color: #f1f1f1;
   width: 80%;
 }
+
+@media only screen and (max-width: 800px){
+	.content2{
+		background-color: #FF3385;
+	}
+}
