@@ -25,6 +25,7 @@ body{
 @media only screen and (max-width: 900px){
   	.backgroundImage {
   		background-image: none;
+  		background-color: #FF3385;
   	}
   }
    							
