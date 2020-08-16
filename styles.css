@@ -58,13 +58,24 @@ body{
 }
 
 .sale{	
-	color:#11CB41;
+	color: #1819D3;
 }
 
 .mainPadding{
 	
 	padding-top: 10px;
 }
+
+.backHomePage{
+	
+  padding: 8px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10px; /* Location of the box */
+  left: 0;
+  top: 0;
+  background-color: yellow;	
+	}
 
 @media only screen and (max-width: 800px){
 	
