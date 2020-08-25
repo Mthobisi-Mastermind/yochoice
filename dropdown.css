@@ -31,7 +31,7 @@
 	
 	.topnav a{
 		font-size: 15px;
-		display: block;
+		float: left;
 	}
 	
 	body{
