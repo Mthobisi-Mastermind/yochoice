@@ -40,10 +40,6 @@
 	.mainPadding{
 		padding-top: 30%;
 	}
-	
-	.dropdown .dropbtn {
-	float: left;
-	}
 }
 
 .dropdown {
@@ -60,6 +56,14 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+}
+
+@media only screen and (max-width: 800px){
+	.dropdown .dropbtn{
+		float: left;
+		display: block;
+	}
+	
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
