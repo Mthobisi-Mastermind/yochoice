@@ -1,344 +1,123 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		
-		<meta charset="ISO-8859-1">
-
-		<meta name="viewport" content = "width=device-width, initial-scale=1">
-		
-		<!-- ============================ CSS FILES =============================== -->
-		<link rel = stylesheet href = "styles.css">
-		<link rel = stylesheet href = "hide.css">
-		<link rel = stylesheet href = "hide2.css">
-		<link rel = stylesheet href = "imagesStyle.css">
-		<link rel = stylesheet href = "dropdown.css">
-		<link rel = stylesheet href = "popup.css">
-		
-		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-			
-		<title>YoChoice</title> -->
-		
-
-
-	</head>
-	
-	<!-- ================================== BODY ====================================================== -->
-	<body>
-	
-	
-		<!--  -div class="container-fluid"-->
-		
-		<!-- ############################ BACKGROUND IMAGE FOR PC ################################# -->
-		
-		<div class ="backgroundImage">
-		
-			<!-- ------------------ SIDE NAVIGATION BAR ------------------------------ -->
-			<div class="sidenav">
-			
-				<h3 style = "text-align:center">Section</h3>
-					
-  					<a href="#kitchen"> Kitchen</a>
-  					<a href="#bathroom"> Bathroom</a>
- 		 			<a href="#bedroom"> Bedroom</a>
- 		 			<a href="#lounge"> Lounge</a>
- 		 			<a href="#baby"> Baby </a> 		 			
- 		 			<a href="#otherAccessories">Accessories</a>		
- 		 			<a href="#topMenu" style = "color: red;">TO TOP MENU ^</a> 		
- 		 		
-			</div>
-		
-		<!-- ---------------------- TOP NAVIGATION BAR ------------------------------------ -->		
-		<div class = "topnav" id = "topMenu">
-		
-			<!-- [     HOME     ] -->
-			<a class="active" href="#home">Home</a>
-			
-			<!-- [     ABOUT US    ] -->
-			<div class="dropdown">
-			
-    			<button class="dropbtn">About us 
-      				<i class="fa fa-caret-down"></i>
-    			</button>
-   			 
-   			 	<div class="dropdown-content">
-   			 		
-   					<button onclick="myFunction()">Open/Close</button>
-
-					<div id="myDIV">
-   		 	
-						YoChoice is a newly founded company based in Western Cape,
-						in the heart of Garden Route, George. <br><br>
-						
-			       		We are all about style and quality, and making it a
-			       		point that our clients' happiness is our number one priority.
-			       		As young as YoChoice is, we have left smiles of satisfaction 
-			       		over 200 customers already.<br><br>
-	        			
-	        			Our products are supplied directly to us from several Manufacturers
-			       		and Wholesalers, thus getting them in bulk gives us great pleasure
-			       		to bring you elegance at an affordable price.
-			       		<br><br>    			
-	        			Looking to grow even bigger and that is only possible through serving every client
-	        			with pride and gratitude.<br><br>
-	        			
-	        			<h3>Our Mission</h3>
-	        			
-	        			Our main goal is to change the way online shopping is done
-	        			by having more of a personal communication with the client
-	        			while taking advantage of technology to optimise the whole
-	        			shopping experience.<br><br>
-	        			
-	        			<h3>Why choose us</h3>
-	        			Our method mentioned above <strong> (Our Mission) </strong> puts the client's mind
-	        			 at ease rather than receiving automated emails after making a huge payment
-	        			 for a product that you are not even sure if it's really what you looking for.
-	        			 As the name says, we bring you nothing but YoChoice.<br><br>
-	        			 
-	        			 Other than that our payment methods are very flexible, as we understand that
-	        			 as much as we want to style our homes here and there, 
-	        			 there is still a budget to follow.
-	        			<br><br>
-        	
-        				<h3>Founders: </h3>
-        				<ul>
-        				<li>Mthobisi Mahlangu</li>
-        				<li>Mandy Kobi </li>  
-        				</ul>   			
-     		 		</div>
-    			</div>
-  			</div>
-  			
-  			<!-- [   PLACING AN ORDER ]     -->
-  			<div class="dropdown">
-  			
-    			<button class="dropbtn">Placing an order 
-    			  	<i class="fa fa-caret-down"></i>
-    			</button>
-    			
-    			<div class="dropdown-content">
-    			
-    				<button onclick="myFunction1()">Open/Close</button>
-
-					<div id="myDIV1">
-     			 	
-						For now the page is mainly for giving you a better catalogue viewing 
-						experience, so currently we offer direct ordering as we don't want you
-						 to key in your banking details before we can ensure safety on our website.
-						 But definitely looking to improve our ordering method once safety has been 
-						 ensured.<br><br>
-						
-						Please kindly place your order on the following platforms:<br><br>
-						<strong>Email</strong>
-						<ul>
-							<li>mthoba2@gmail.com </li>
-							<li>mandykobi@gmail.com</li>
-						</ul>
-						
-						<br>
-						<strong>Whatsapp or Call</strong>
-							<ul>
-							    <li>Mthobisi on +2773 020 8371</li>
-								<li>Mandy on +2773 409 0570</li>
-							</ul>
-							<br>
-						<strong>Inbox on facebook</strong>
-							<ul><li>Mandy Othimna Kobi</li>
-							
-							</ul>
-						
-					</div>
-     			 
-   				</div>
-   			
-  			</div>
+<head>
+		<!--Bootstrap links-->
+ 	<title>YoChoice Bootstrap</title>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport"
+ 	content="width=device-width, initial-scale=1.0">
   
-  			<!-- [   PAYMENT METHODS ] -->
-			<div class="dropdown">
-			
-  			 	<button class="dropbtn">Payment methods 
-  			    	<i class="fa fa-caret-down"></i>
-  			  	</button>
-  			  
-    			<div class="dropdown-content"> 
-    			  
-    		  		<button onclick="myFunction2()">Open/Close</button>
-
-						<div id="myDIV2">  		 
-     		 	
-     		 			<strong>All of our payments are made once you have received your order.</strong><br>
-     		 			
-						<ul>
-							<li><strong>Payment methods</strong></li>
-							
-								<ul>
-									<li>Cash </li>
-									<li>EFT or Deposit</li>
-										<ul>
-											<li>Standard Bank</li>
-												Mthobisi Mahlangu<br>
-												Cheque account<br>
-												Account number: 2520 62310<br><br>
-									
-											<li>Capitec</li>
-												Mandy Kobi<br>
-												Savings Account<br>
-												Account number: 1436 639180<br><br>							
-										</ul>
-								</ul>
-								
-							<li>An item above R500 can be paid in 2 monthly installments
-								at 0% interest rate or on delivery if the client wishes to do so</li>
-								
-								<ul>
-									<li>When paying in installments, at least 20%
-									is expected on delivery and then 40% in 2 installments</li>
-						
-								</ul>
-							
-							<li>Items below R500 must be paid in full as soon as they are received</li>
-							<li>If you happen to order items above R500 and items below R500 at the same time,
-				   				 20% for the items above R500 as well as the payment
-				     			for the items below R500 is expected on delivery.</li>
-				 
-						</ul>
-						
-					</div>
-					
-   				 </div>
-   				 
-  			</div>
-  			
-  			
-  			<!-- [         DELIVERY     ] -->
-  			<div class="dropdown">
-  			
-  			 	<button class="dropbtn">Delivery 
-  			    	<i class="fa fa-caret-down"></i>
-  			 	</button>
-  			  
-    			<div class="dropdown-content"> 
-    		
-    		  		<button onclick="myFunction3()">Open/Close</button>
-
-					<div id="myDIV3">     			
-    					We delivery straight to the provided address <strong>for free</strong> 
-    					in George and at a calculated rate depending on the purchased items 
-    					and delivery address for places outside George.<br><br>
-    			
-    					Our delivery waiting period after placing an order mainly 
-    					depends on our suppliers. But we normally update the client within
-    					24 hours once we get feedback from our supplier.<br><br>   		 
-     		 		</div>
-     		 		
-   			 	</div>
-   			 	
-  			</div>
-  			
-  			<!-- [    CONTACT US     ] -->
-  			<div class="dropdown">
-  			
-  			 	<button class="dropbtn">Contact us 
-  			    	<i class="fa fa-caret-down"></i>
-  			  	</button>
-  			  	
-    			<div class="dropdown-content">
-    			   
-    		  		<button onclick="myFunction4()">Open/Close</button>
-
-					<div id="myDIV4">  		 
-     		 	
-     		 			Whatsapp or tel :<br>
-						<li>Mthobisi @ +2773 020 8371</li>
-						<li>Mandy @ +2773 409 0570</li>
-						<br>
-						Email:
-						<li>mandykobi@gmail.com</li>
-						<li>mthoba2@gmail.com</li>
-						<br>
-				
-						Facebook:
-						<li><a target="_blank" href = "https://www.facebook.com/mandynana.kobi1">Mandy Othimna Kobi
-						</a></li>
-						<br>
-			
-						LinkedIn:
-						<li><a  target = "_blank" href = "http://www.linkedin.com/in/mthobisi-mahlangu">
-							 Mthobisi Mahlangu</a>	</li>
-							  	
-					</div>
-   				</div>
-  			</div>	
-		</div>
+  	<link rel = "stylesheet" type = "text/css" href = "style.css">
+  	<link rel = "stylesheet" href ="https://stackpath.bootstrapcdn.com/font-awesome/
+  	4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	
-		<!-- """""""""""""""    MAIN HOME PAGE SCROLL   """"""""""""""""""""""""""''' -->
-		
-		<!-- Trigger/Open The Modal -->
-		<button id="myBtn" style="background-color:yellow;">Can't find it on the catalogue?</button>
+	<link rel="stylesheet" 
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+</head>
 
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
+<body>
 
- 			 <!-- Modal content -->
- 			 <div class="modal-content">
-    			<span class="close">&times;</span>
-    			<p>Don't worry, just inbox us with details of what you looking for,
-    		 	we will definitely shop around on your behalf.</p>
-  			</div>
+	<div class="container-fluid">
 
-		</div>
-		
-		<div class="mainPadding">
-		
-			<div class= "Home" id = "home"> 
-			
-			  <div class="gallery">
-			      <img src="YoChoiceLogo.png" alt="Logo" width="600" height="400">
-			  </div>
-		
-			<div class="clearfix"></div>
-		
-				<!--  
-				img src = "YoChoiceLogo.png" alt ="YoChoiceLogo" width="400" height="450" style="text-align: center;" -->
-					
-					<!-- ===============   WELCOME STATEMENT =================== -->
-					<br>
-					Welcome to YoChoice, offering style at an affordable price 
-					without compromising on quality.
-					<br><br>
-					At YoChoice we understand how skeptical it can be to pay
-					for something you see in pictures, thus we believe in 
-					giving our customers all the freedom and flexibility when 
-					buying, <strong>by allowing you to pay once the order is 
-					in your hands, no deposit/registrations or commitments 
-					forced on you. Now that's what we call convenience at your
-					 finger tips!	
-					</strong><br>
-					 Explained better on <a href="#topMenu">About Us</a>
-					<br><br>
-					Now let your mind and fingers explore through our currently 
-					offered products. Please note that our business is still 
-					growing, more features and products are to be introduced 
-					for your convenience.<br><br>
-					<strong>Feel free to inbox us with your desired product even
-					if its not listed on our catalogue, we will definitely shop
-					around for you.</strong><br><br>
-					
-					Inbox us on facebook or whatsapp <a href="#topMenu">Contact us</a> ,we are on standby !
-					 <strong>Take advantage of our exciting opening deals on most products!</strong><br><br>	
-					
-			</div>
-		
-<!-- =========================================== KITCHEN =============================================== -->	
-		<button class="collapsible2" id = "kitchen">Kitchen</button>
+	<header class = "header">
+	
+		<nav class = "navbar navbar-style">
+			<div class = "container">
+				<div class = "navbar-header">
 				
-		<div class = "content2">
+					<!-- Hide and open menu icon -->
+					
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+					
+					<span class="displayStyle">MENU</span>
+					<span class="icon-bar"></span>
+					
+					</button>
+					
+					<!--Logo image -->
+					<a href =""><img class = "logo" src="YoChoiceLogo.png"></a>
+					
+				</div>
 						
-			<div class="responsive">
-			  <div class="gallery">
+				<!-- Navigation bar links -->
+				<div class="collapse navbar-collapse" id="micon">
+					<ul class = "nav navbar-nav navbar-right" >
+					
+						<li><a href ="index.html">Home</a></li>
+						<li><a href ="about.html">About us</a></li>
+						<li><a href ="placeOrder.html">Place order</a></li>
+						<li><a href ="payment.html">Payment methods</a></li>
+						<li><a href ="delivery.html">Delivery</a></li>
+						<li><a href ="contact.html">Contact us</a></li>
+					</ul>
+					
+				</div> 
+				
+				<!-- <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+<input name="sitesearch" type="hidden" value="yochoice.co.za">
+<input autocomplete="on" class="form-control search" name="q" placeholder="What are you looking for?" required="required"  type="text">
+<button class="button" type="submit">Search</button>
+</form> -->
+				
+					<!--  <script async src="https://cse.google.com/cse.js?cx=69a7870df226c3afe"></script>
+					<div class="gcse-search"></div> -->
+				
+							
+			</div>
+	
+		</nav>
+		
+		<div class = "container">
+			<div class ="row">
+				
+				<!-- WELCOME STATEMENT -->
+				
+				<div class="col-sm-6 banner-image">
+				
+				
+					<!--img src = "kitchenSet.jpg" class = "img-responsive"-->
+					
+					  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   					 <!-- Indicators -->
+    					<ol class="carousel-indicators"> 
+					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					      <li data-target="#myCarousel" data-slide-to="1"></li>
+					      <li data-target="#myCarousel" data-slide-to="2"></li>
+					      <li data-target="#myCarousel" data-slide-to="3"></li>
+					      <li data-target="#myCarousel" data-slide-to="4"></li>
+					      <li data-target="#myCarousel" data-slide-to="5"></li>
+					    </ol>
+					
+					    <!-- Wrapper for slides -->
+					    <div class="carousel-inner" >
+					      <div class="item active" >
+					        			  <div class="gallery">
+			    <a target ="_blank" href="kitchenSet.jpg">
+			      <img src="kitchenSet.jpg" alt="kitchen" width="600" height="400">
+			    </a>
+			    <div class="desc">Grey Dotted Bread Bin & 3pc Canister Set<br><div class ="sale">R660</div>
+			    </div>
+			  </div>
+					        
+					      </div>
+										    
+					      <div class="item">
+			<div class="gallery">
+			    <a target="_blank" href="G&M Catalic Ceramic bathroom set.jpg">
+			      <img src="G&M Catalic Ceramic bathroom set.jpg" alt="bathroom" width="600" height="400">
+			    </a>
+			    <div class="desc">George & Mason - Catalina Ceramic Bathroom set<br><div class="sale">R430</div></div>
+			  </div>
+					      </div>
+					    
+					    <div class="item">
+			<div class="gallery">
 			    <a target ="_blank" href="bachelor dish drainer.jpg">
 			      <img src="bachelor dish drainer.jpg" alt="Kitchen" width="600" height="400">
 			    </a>
@@ -346,1359 +125,206 @@
 			    	Casa 2 Tier Dish Drainer <br> <div class ="sale">R260</div>
 			    </div>
 			  </div>
-			  </div>
-			  	
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="s shape dish drainer.jpg">
-			      <img src="s shape dish drainer.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">
-			    	2 Tier Dish Drainer <br><div class="sale">R270</div>
-			    </div>
-			  </div>
-			  </div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="s shape dish drainer use.jpg">
-			      <img src="s shape dish drainer use.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">
-			    	2 Tier Dish Loaded<br><div class="sale">R270</div>  
-			    </div>
-			  </div>
-			  </div>	
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="G&M 8 litre glass juice.jpg">
-			      <img src="G&M 8 litre glass juice.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">George & Mason - 8litre Juice Dispenser<br><div class="sale">R350</div>
-			    </div>
-			  </div>
-			  </div>
-			  
-			  <div class="clearfix"></div>
-		  
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="kitchenSet.jpg">
-			      <img src="kitchenSet.jpg" alt="kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Grey Dotted Bread Bin & 3pc Canister Set<br><div class ="sale">R660</div>
-			    </div>
-			  </div>
-			  </div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			   <a target ="_blank" href="kitchenSet1.jpg">
-			      <img src="kitchenSet1.jpg" alt="kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Red Dotted Bread Bin & 3pc Canister Set<br><div class ="sale">R660</div>
-			    </div>
-			  </div>
-			  </div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="kitchenSet2.jpg">
-			      <img src="kitchenSet2.jpg" alt="kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Cream Bread Bin & 3pc Canister Set<br><div class ="sale">R660</div>
-			    </div>
-			  </div>
-			  </div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="kitchenSet3.jpg">
-			      <img src="kitchenSet3.jpg" alt="kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Retro Bread Bin Steel design & 3pc Canister Set<br><div class="sale">R599</div>
-			    </div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="kitchenSet4.jpg">
-			      <img src="kitchenSet4.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class ="desc">White Retro Bread Bin Steel design & 3pc Canister Set<br><div class="sale">R599</div>
-			    </div>
-			  </div>
-			  </div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="kitchenSet5.jpg">
-			      <img src="kitchenSet5.jpg" alt="kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">
-			    Red Retro Bread Bin Steel design & 3pc Canister Set<br><div class="sale">R599</div>
-			    </div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="teaSet.jpg">
-			      <img src="teaSet.jpg" alt="kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">4pc Glass Canister Set<br><div class="sale">R360</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="potSet.jpg">
-			      <img src="potSet.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Leopard 21 Piece Cookware Set-Steel<br><div class="sale">R1290</div></div>
-			  </div>
-			</div>
-		
-			<div class="clearfix"></div>
-			
-			
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="bamboo wooden set.jpg">
-			      <img src="bamboo wooden set.jpg" alt="KitchenError" width="600" height="400">
-			    </a>
-			    <div class="desc">Bamboo Wooden Set<br><div class="sale">R250</div></div>
-			  </div>
-			</div>
-			
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="potSet4s.jpg">
-			      <img src="potSet4s.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">8 piece Stainless Steel Set<br><div class="sale">R650</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="5l mealie-meal canister.jpg">
-			      <img src="5l mealie-meal canister.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">5l Mielie-meal Stainless Steel Storage Canister<br><div class="sale">R399</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="30cm pasta canister.jpg">
-			      <img src="30cm pasta canister.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">30cm Pasta Storage Canister<br><div class="sale">R399</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-	
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="5l rice canister.jpg">
-			      <img src="5l rice canister.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">5l Rice Stainless Steel Storage Canister.
-			    Also available for flour,<br><div class="sale">R399</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="pie pan.jpg">
-			      <img src="pie pan.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">House of York - Pie Pan with Silicone<br><div class="sale">R160</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="glass cake dish.jpg">
-			      <img src="glass cake dish.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Pyrex - 26cm Glass Cake Dish<br><div class ="sale">R199</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="M&W sasla set.jpg">
-			      <img src="M&W sasla set.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Maxwell & William - Bamboo and Ceramic Sasla Set 9pc
-			    <br><div class="sale">R380</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			 <div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="6pc spice set.jpg">
-			      <img src="6pc spice set.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">6pc Spice Set on Stand<br><div class="sale">R290</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="steaming insert.jpg">
-			      <img src="steaming insert.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Kuenchenprofi Steaming Insert<br><div class="sale">R399</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="6pc spice set 2.jpg">
-			      <img src="6pc spice set 2.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Optic cruet condiment 6pc spice rack set<br><div class="sale">R210</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="4pc homeware.jpg">
-			      <img src="4pc homeware.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Continental Homeware 4pc-Salt, Vinegar, Pepper & Oil<br><div class="sale">R330</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-						<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="3 piece glass jar.jpg">
-			      <img src="3 piece glass jar.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Continental Homeware 3pc Glass Jar with Silver Lid(400/600/800ml)
-			    <br><div class="sale">R290</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="12pc spice set.jpg">
-			      <img src="12pc spice set.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Optic Stainless Steel Spice Rack 12pc - Silver
-			    <br><div class="sale">R460</div></div>
-			  </div>
-			  </div>
-			  
-			  <div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="Cutting board stripes.jpg">
-			      <img src="Cutting board stripes.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Bamboo Cutting Board<br><div class="sale">R230</div></div>
-			  </div>
-			</div>
-			  
-			  <div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="mixing bowl.jpg">
-			      <img src="mixing bowl.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">	Pyrex- Mixing Bowl 500ml<br><div class="sale">R120</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="mixing bowl use.jpg">
-			      <img src="mixing bowl use.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Pyrex- Mixing Bowl 500ml Use<br><div class="sale">R120</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="chiffon cake pan.jpg">
-			      <img src="chiffon cake pan.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">House of York - Chiffon Cake Pan with Silicone
-			    <br><div class="sale">R190</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="cake pan use.jpg">
-			      <img src="cake pan use.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">House of York - Chiffon Cake Pan with Silicone
-			    <br><div class="sale">R190</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="assorted cookie cutters.jpg">
-			      <img src="assorted cookie cutters.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Zenker Assorted Cookie Cutters
-			    <br><div class="sale">R199</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="6 cookie cutters.jpg">
-			      <img src="6 cookie cutters.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">6pc Set Cookie Cutters
-			    <br><div class="sale">R130</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="non stick 12cups muffin.jpg">
-			      <img src="non stick 12cups muffin.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Bakeware Non Stick Muffin Pan 12 cups
-			    <br><div class="sale">R270</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baking tray with grill.jpg">
-			      <img src="baking tray with grill.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Stainless Steel Baking Tray with Grill (Outdoor and Indoor Use)
-			    <br><div class="sale">R299</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="metalix non stick square pan.jpg">
-			      <img src="metalix non stick square pan.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Metalix Non Stick Metal Square Pan
-			    <br><div class="sale">R140</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-		
-		
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="9cm ramekin.jpg">
-			      <img src="9cm ramekin.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">EHK 9cm Ramekin - White
-			    <br><div class="sale">R120</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="12 cup muffin non stick.jpg">
-			      <img src="12 cup muffin non stick.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Metalix - 12 Cup Muffin Non stick
-			    <br><div class="sale">R180</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="rolling pin.jpg">
-			      <img src="rolling pin.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Progressive Kitchenware Non stick Baking Rolling Pin
-			    <br><div class="sale">R290</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="12cup muffin  pan.jpg">
-			      <img src="12cup muffin pan.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Metalix 12 Cup Tin Mini Muffin Pan
-			    <br><div class="sale">R80</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="standard baking tray.jpg">
-			      <img src="standard baking tray.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Metalic Tin Standard Baking Pan
-			    <br><div class="sale">R140</div></div>
-			  </div>
-			</div>
-			 
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="non stick springform.jpg">
-			      <img src="non stick springform.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Metalix Non Stick Springform
-			    <br><div class="sale">R160</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="cookie sheet non stick.jpg">
-			      <img src="cookie sheet non stick.jpg" alt="Kitchen" width="600" height="400">
-			    </a>
-			    <div class="desc">Metalix Cookie Sheet Non stick
-			    <br><div class="sale">R140</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-	
-</div>
-
-
-<!-- ======================================== BATHROOM ========================================== -->
-		
-		<button class="collapsible2" id = "bathroom">Bathroom</button>
-		
-		<div class = "content2">
-			
-									
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="G&M Catalic Ceramic bathroom set.jpg">
-			      <img src="G&M Catalic Ceramic bathroom set.jpg" alt="bathroom" width="600" height="400">
-			    </a>
-			    <div class="desc">George & Mason - Catalina Ceramic Bathroom set<br><div class="sale">R430</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			   <a target ="_blank" href="bathroomU.jpg">
-			      <img src="bathroomU.jpg" alt="bathroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Toilet Paper Holder & Storage<div class="sale">R210</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="bathroomSet1.jpg">
-			      <img src="bathroomSet1.jpg" alt="bathroom" width="600" height="400">
-			    </a>
-			    <div class="desc">6pc Modern Bathroom Set Cream<div class="sale">R499</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="bathroomSet2.jpg">
-			      <img src="bathroomSet2.jpg" alt="bathroom
-			      " width="600" height="400">
-			    </a>
-			    <div class="desc">6pc Bathroom Set<div class="sale">R350</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="bathroomSet3.jpg">
-			      <img src="bathroomSet3.jpg" alt="bathroom" width="600" height="400">
-			    </a>
-			    <div class="desc">6pc Modern Bathroom Set Black<div class="sale">R499</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="bathroomSet4.jpg">
-			      <img src="bathroomSet4.jpg" alt="Bathroom" width="600" height="400">
-			    </a>
-			    <div class="desc">6pc Modern Bathroom Set Red<div class="sale">R499</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="showerSet.jpg">
-			      <img src="showerSet.jpg" alt="Shower" width="600" height="400">
-			    </a>
-			    <div class="desc">6pc Bathroom Accessory set - Modern Chrome<div class="sale">R520</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="showerSet2.jpg">
-			      <img src="showerSet2.jpg" alt="shower" width="600" height="400">
-			    </a>
-			    <div class="desc">Wildberry - 5pc Zinc Alloy Ess Bathroom Set<div class="sale">
-			    R440</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="mat.jpg">
-			      <img src="mat.jpg" alt="Mountains" width="600" height="400">
-			    </a>
-			    <div class="desc">Foam Bath mat set<div class="sale">R250</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="mat1.jpg">
-			      <img src="mat1.jpg" alt="mat" width="600" height="400">
-			    </a>
-			    <div class="desc">Foam Bath mat set Light Brown<div class="sale">R250</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="mat2.jpg">
-			      <img src="mat2.jpg" alt="mat" width="600" height="400">
-			    </a>
-			    <div class="desc">Foam Bath Mat Set Red<div class="sale">R250</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="bathroom mat set - purple.jpg">
-			      <img src="bathroom mat set - purple.jpg" alt="mat" width="600" height="400">
-			    </a>
-			    <div class="desc">Bathroom mat set - Purple <br><div class="sale">R299</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="bathroom mat set - black.jpg">
-			      <img src="bathroom mat set - black.jpg" alt="mat" width="600" height="400">
-			    </a>
-			    <div class="desc">Bathroom mat set - Black <br><div class="sale">R299</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="bathroom mat set - blue.jpg">
-			      <img src="bathroom mat set - blue.jpg" alt="mat" width="600" height="400">
-			    </a>
-			    <div class="desc">Bathroom mat set - Blue <br><div class="sale">R299</div></div>
-			  </div>
-			</div>
-			
+					      </div>
 						
-		</div>
+						<div class="item">
+					        			  <div class="gallery">
+						    <a target ="_blank" href="elephantPillow.jpg">
+						      <img src="elephantPillow.jpg" alt="baby" width="600" height="400">
+						    </a>
+						    <div class="desc">Baby Elephant Pillow Grey (without Blanket) 
+						    Available in different colours<br>
+						    <div class="sale">R360</div></div>
+						  </div>
+								      </div>
+					    
+					    <div class="item">
+					        <div class="gallery">
+							    <a target ="_blank" href="6way multiplug.jpg">
+							      <img src="6way multiplug.jpg" alt="accessories" width="600" height="400">
+							    </a>
+							    <div class="desc">6 Way Multiplug With USB Charging Port<br><div class="sale">R220</div></div>
+							  </div>
+					      </div>
 			
-<!--============================================== 	BEDROOM =============================================== -->
-			
-		<button class="collapsible2" id = "bedroom">Bedroom</button>
-		
-		<div class = "content2">
-		
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="comforter red-blue.jpg">
-			      <img src="comforter red-blue.jpg" alt="Bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">	Comforter - Pierre Cardin Addison 75GSM Geometric Blue
-			    Red			     
-			    	<div class="sale">Double R599<br>Queen R650</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="comforter dam.jpg">
-			      <img src="comforter dam.jpg" alt="Bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Comforter - Pierre Cardin Romma 75GSM Stripe Diamond Navy
-			    	<div class="sale">Double R599<br>Queen R650</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="comforter red.jpg">
-			      <img src="comforter red.jpg" alt="Bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Comforter - Pierre Cardin Soft & Lofty Apollo Black/Red
-			    	<div class="sale">Queen R650</div></div>
-			  </div>
-			</div>
-			
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="comforter white-red.jpg">
-			      <img src="comforter white-red.jpg" alt="Bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Comforter - Pierre Cardin Softy & Lofty Cleaver Red/White
-			    	<div class="sale">Queen R650</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="comforter flowers.jpg">
-			      <img src="comforter flowers.jpg" alt="Bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Comforter - Pierre Cardin Soft & Lofty 
-			    Fuschia Green/Purple
-			    	<div class="sale">Double R599<br>Queen R650</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="comforter diamond.jpg">
-			      <img src="comforter diamond.jpg" alt="Bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Comforter - Pierre Cardin Soft & Lofty Romma Grey/Red
-			    	<div class="sale">Double R599<br>Queen R650</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="comforter yellow-blue.jpg">
-			      <img src="comforter yellow-blue.jpg" alt="Bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Comforter - Pierre Cardin Softy &
-			     Lofty Laurier Blue/Yellow
-			    	<div class="sale">Queen R650</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-												
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="BC Blanket-Bean Pink.jpg">
-			      <img src="BC Blanket-Bean Pink.jpg" alt="Bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">BC Daffodil Soft & Warm 1ply Mink Blanket - Bean Pink
-			    	<div class="sale">R650</div></div>
-			  </div>
-			</div>
-			
-						
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="BC Blanket-Purple Pink.jpg">
-			      <img src="BC Blanket-Purple Pink.jpg" alt="city" width="600" height="400">
-			    </a>
-			    <div class="desc">BC Daffodil Soft & Warm 1ply Mink Blanket - Purple Pink
-			    	<div class="sale">R650</div></div>
-			  </div>
-			</div>
-					
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="BC Blanket-Grey.jpg">
-			      <img src="BC Blanket-Grey.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">BC Daffodil Soft & Warm 1ply Mink Blanket - Grey
-			    	<div class="sale">R650</div></div>
-			  </div>
-			</div>
-						
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="BC Blanket-Purple.jpg">
-			      <img src="BC Blanket-Purple.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">BC Daffodil Soft & Warm 1ply Mink Blanket - Purple
-			    	<div class="sale">R650</div></div>
-			  </div>
-			</div>
-						
-						<div class="clearfix"></div>
-						
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="BC Blanket-Duck Egg.jpg">
-			      <img src="BC Blanket-Duck Egg.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">BC Daffodil Soft & Warm 1ply Mink Blanket - Duck Egg
-			    	<div class="sale">R650</div></div>
-			  </div>
-			</div>
-			
-						
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="BC Blanket-Caramel.jpg">
-			      <img src="BC Blanket-Caramel.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">BC Daffodil Soft & Warm 1ply Mink Blanket - Caramel
-			    	<div class="sale">R650</div></div>
-			  </div>
-			</div>
-						
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="BC Blanket-Brown.jpg">
-			      <img src="BC Blanket-Brown.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">BC Daffodil Soft & Warm 1ply Mink Blanket - Brown
-			    	<div class="sale">R650</div></div>
-			  </div>
-			</div>
-						
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="heroBed.jpg">
-			      <img src="heroBed.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Kids Bedding Character<div class="sale">R---</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			   <a target ="_blank" href="sofiaBed.jpg">
-			      <img src="sofiaBed.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Kids Bedding Character Girls<div class="sale">R---</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target="_blank" href="pillows.jpg">
-			      <img src="pillows.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Bamboo Twin Pack Pillows <br><div class="sale">R350</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="Cases.jpg">
-			      <img src="Cases.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Standard Twin Pillow Pack<br><div class="sale">R250</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="floral duvet cover.jpg">
-			      <img src="floral duvet cover.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Pierre Cardin Floral White Duvet Cover Set 
-			    (Duvet Cover + Pillow Cases)<br><div class="sale">Double R650<br>Queen R699<br>King R720</div></div>
-			  </div> 
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="duvetCover1.jpg">
-			      <img src="duvetCover1.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Pierre Cardin Polycotton Duvet Cover Set
-			    - Kravet (2 Pillow Cases + 1 Duvet Cover)
-			    	<div class="sale">Double R650<br>Queen R699<br>King R720</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="duvetCover3.jpg">
-			      <img src="duvetCover3.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Pierre Cardin Duvet Cover Set ( Cover + 2 pillow cases)
-			    <div class="sale">Double R650<br>Queen R699<br>King R720</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="duvetCover4.jpg">
-			      <img src="duvetCover4.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">	Pierre Cardin Diver Cover Set(King)- 
-			    Cover + 2 Pillowcases<div class="sale">Double R650<br>Queen R699<br>King R720</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="duvetInner.jpg">
-			      <img src="duvetInner.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">	Duvet inner - White
-			    <div class="sale">Queen R490</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="duvetInner1.jpg">
-			      <img src="duvetInner1.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Duvet inner - White<div class="sale">Queen R490</div></div>
-			  </div>
-			</div>
-			
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="shoeBox.jpg">
-			      <img src="shoeBox.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Shoe Under Organiser<div class="sale">R199</div></div>
-			  </div>
-			</div>
-			
-			
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="shoeRack.jpg">
-			      <img src="shoeRack.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">Classy Shoe Rack<div class="sale">R299</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="shoeRack2.jpg">
-			      <img src="shoeRack2.jpg" alt="bedroom" width="600" height="400">
-			    </a>
-			    <div class="desc">10 Tier Stackable Shoe Rack<br><div class="sale">R430</div></div>
-			  </div>
-			</div>
-						
-		</div>
-
-<!-- ================================== LOUNGE ============================================== -->
-		<button class="collapsible2" id = "lounge">Lounge</button>
-		
-		<div class = "content2">
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="loungeWatch.jpg">
-			      <img src="loungeWatch.jpg" alt="city" width="600" height="400">
-			    </a>
-			    <div class="desc">Stylish Design Wall Clock<br><div class="sale">R--</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			   <a target ="_blank" href="loungeWatch2.jpg">
-			      <img src="loungeWatch2.jpg" alt="shoeRack" width="600" height="400">
-			    </a>
-			    <div class="desc">Classy Wall Clock Deco<br><div class="sale">R--</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="remoteOrganiser.jpg">
-			      <img src="remoteOrganiser.jpg" alt="lounge" width="600" height="400">
-			    </a>
-			    <div class="desc">Classy Remote Organiser<br><div class="sale">R250</div></div>
-			  </div>
-			</div>
-						
-		</div>
-		
-<!-- ============================================== BABY ================================================== -->
-		<button class="collapsible2" id = "baby">Baby</button>
-		
-		<div class = "content2">
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="toiletExtender.jpg">
-			      <img src="toiletExtender.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Kids Toilet Seat Chair - Blue<br><div class="sale">R399</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="multifuctional baby bag pink.jpg">
-			      <img src="multifuctional baby bag pink.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Multifunctional Baby Diaper Handbag Set 5 piece - Pink (Available in Purple)<br>
-			    <div class="sale">R399</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="multifuctional baby bag blue.jpg">
-			      <img src="multifuctional baby bag blue.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Multifunctional Baby Diaper Handbag Set 5 piece - Blue(Available in Purple as well)
-			    <div class="sale">R399</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			   <a target ="_blank" href="backPackBaby.jpg">
-			      <img src="backPackBaby.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Large Waterproof Multi-fucntional Diaper Backpack
-			    <div class="sale">R330</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="elephantPillow.jpg">
-			      <img src="elephantPillow.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Elephant Pillow Grey (without Blanket) Available in different colours
-			    <div class="sale">R360</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="elephantBlanket.jpg">
-			      <img src="elephantBlanket.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Elephant Pillow Pink( with Blanket) Available in different colours
-			    <br><div class="sale">R450</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="elephantBlanket2.jpg">
-			      <img src="elephantBlanket2.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Elephant Pillow Blue( with Blanket) Available in different colours
-			    <br><div class="sale">R450</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="elephantPink.jpg">
-			      <img src="elephantPink.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Elephant Pillow Pink(No Blanket)<div class="sale">R360</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
+						<div class="item">
+					          <div class="gallery">
 			    <a target ="_blank" href="mosquito net blue.jpg">
 			      <img src="mosquito net blue.jpg" alt="baby" width="600" height="400">
 			    </a>
-			    <div class="desc">Baby mosquito net blue<div class="sale">R350</div></div>
+			    <div class="desc">Baby mosquito net blue<br><div class="sale">R350</div></div>
 			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="mosquito net blue1.jpg">
-			      <img src="mosquito net blue1.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby mosquito net blue<div class="sale">R350</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="mosquito net pink.jpg">
-			      <img src="mosquito net pink.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Mosquito net pink<div class="sale">R350</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby carrier.jpg">
-			      <img src="baby carrier.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby carrier-Navy<div class="sale">R360</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby bag brown.jpg">
-			      <img src="baby bag brown.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby bag set - Dotted Brown<div class="sale">R550</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby bag navy-pink.jpg">
-			      <img src="baby bag navy-pink.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby bag set - Navy & Pink<div class="sale">R550</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="babyBagPink.jpg">
-			      <img src="babyBagPink.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby bag set - Dotted Pink<div class="sale">R550</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby bath set.jpg">
-			      <img src="baby bath set.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby bath set & Feeding Hamper<div class="sale">R550</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby bath tub.jpg">
-			      <img src="baby bath tub.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Bath tub Blue<div class="sale">R499</div></div>
-			  </div>
-			</div>
-			
-						<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby bath tub green.jpg">
-			      <img src="baby bath tub green.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Bath tub Green<div class="sale">R499</div></div>
-			  </div>
-			</div>
-			
-								<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby sleeper bag pink.jpg">
-			      <img src="baby sleeper bag pink.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Sleeper Bag - Pink & Grey<div class="sale">R450</div></div>
-			  </div>
-			</div>
-	
-		
-					<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby sleeper bag brown.jpg">
-			      <img src="baby sleeper bag brown.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Sleeper Bag - Brown<div class="sale">R450</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-		
-					<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby sleeper bag.jpg">
-			      <img src="baby sleeper bag.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Sleeper Bag - Navy<div class="sale">R450</div></div>
-			  </div>
-			</div>
-			
-		
-					<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby sleeper bag blue.jpg">
-			      <img src="baby sleeper bag blue.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Sleeper Bag - Blue<div class="sale">R450</div></div>
-			  </div>
-			</div>
-		
-					<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby sleeper bag pink1.jpg">
-			      <img src="baby sleeper bag pink1.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Sleeper Bag - Pink<div class="sale">R450</div></div>
-			  </div>
-			</div>
-		
-					<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="baby carrier red1.jpg">
-			      <img src="baby carrier red1.jpg" alt="baby" width="600" height="400">
-			    </a>
-			    <div class="desc">Baby Carrier - Red<div class="sale">R360</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-		</div>
-
-	<!-- ============================= OTHER ACCESSORIES ============================== -->		
-			
-		<button class="collapsible2" id = "otherAccessories">Accessories</button>
-		
-		<div class = "content2">
+					      </div>
 						
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="usbPlug.jpg">
-			      <img src="usbPlug.jpg" alt="accessories" width="600" height="400">
-			    </a>
-			    <div class="desc">Multiplug Adaptor With USB Charging Port<div class="sale">R199</div></div>
-			  </div>
+					    </div>	
+					
+					    <!-- Left and right controls -->
+					    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					      <span class="glyphicon glyphicon-chevron-left"></span>
+					      <span class="sr-only">Previous</span>
+					    </a>
+					    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+					      <span class="glyphicon glyphicon-chevron-right"></span>
+					      <span class="sr-only">Next</span>
+					    </a>
+		 			 </div>
+				</div>
+				
+
+
+				
+				<div class="col-sm-6 banner-info">
+					
+					<div class="dropdown">
+					    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+					    	VIEW ALL PRODUCTS
+					    <span class="caret"></span></button>
+					    <ul class="dropdown-menu">
+					      <li><a href="kitchen.html">Kitchen</a></li>
+					      <li><a href="bathroom.html">Bathroom</a></li>
+					      <li><a href="baby.html">Baby</a></li>
+					      <li><a href="bedroom.html">Bedroom</a></li>
+					      <li><a href="lounge.html">Lounge</a></li>
+					      <li><a href="accessories.html">Accessories</a></li>
+					    </ul>
+					 </div>
+					 
+					 
+					
+				
+				
+					<p>Welcome to YoChoice Shopping (PTY) LTD, 
+					offering style at an affordable price 
+					without compromising on quality.
+					<br><br>
+					At YoChoice we understand how skeptical it can be to pay
+					for something you see in pictures, thus we believe in 
+					giving our customers all the freedom and flexibility when 
+					buying, <strong>by allowing you to pay once the order is 
+					in your hands,</strong><span id="dots">...</span><span id="more">
+					no deposit/registrations or commitments 
+					forced on you. Now that's what we call convenience at your
+					 finger tips!	
+			
+					 Explained better on <a href="about.html">About Us</a>
+					<br><br>
+					Now let your mind and fingers explore through our currently 
+					offered products. Please note that our business is still 
+					growing, more features and products are to be introduced 
+					for your convenience.<br><br>
+					<strong>Feel free to inbox us with your desired product even
+					if its not listed on our catalogue, we will definitely shop
+					around for you.</strong>
+					<br><br>
+					Inbox us on facebook or whatsapp <a href="contact.html">Contact us</a> ,we are on standby !
+					 <strong>Take advantage of our exciting opening deals on most products!</strong>	
+					</span>
+					</p>
+					<!-- Read more or less button -->
+					<button onclick="myFunction()" id="myBtn">Read more</button>
+
+						<script>
+						function myFunction() {
+						  var dots = document.getElementById("dots");
+						  var moreText = document.getElementById("more");
+						  var btnText = document.getElementById("myBtn");
+						
+						  if (dots.style.display === "none") {
+						    dots.style.display = "inline";
+						    btnText.innerHTML = "Read more"; 
+						    moreText.style.display = "none";
+						  } else {
+						    dots.style.display = "none";
+						    btnText.innerHTML = "Read less"; 
+						    moreText.style.display = "inline";
+						  }
+						}
+						</script>
+											
+					<br><br>
+					
+					
+					
+					
+					
+									<button type="button" class="btn btn-success btn-lg" data-toggle="modal" 
+				data-target="#myModal">	Can't find it on the catalogue?</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        
+        <div class="modal-body">
+          <p>Simply inbox us with the picture or description of what you looking for.<br>
+          We will definitely shop around on your behalf!
+          	
+          	<div class = "page-footer font-small blue pt-4">
+                        <strong>Chat to one of us!<i class="fa fa-whatsapp" style="font-size:20px;color:white; background-color:lightGreen; padding: 2px;"></i></strong> 
+                      
+					<br>
+					<a class = "btn btn-first" href = "https://api.whatsapp.com/send?phone=27730208371"
+					 target ="_blank">Mtho</a><br>
+					
+					
+					<a class="btn btn-first" href="https://api.whatsapp.com/send?phone=27734090570"
+					 target ="_blank">Mandy</a>
+					 
+				</div> 
+			<a href ="contact.html">Call</a>
+          <p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+				</div>
+				
+			</div>
+		</div>	
+	
+	
+	
+	<div class="container-fluid footerColor">
+		<div class="row">
+			<div class="col-sm-6 banner-info">
+				<div class = "page-footer font-small blue pt-4">
+                        <strong>Chat to one of us!<i class="fa fa-whatsapp" style="font-size:20px;color:white; background-color:lightGreen; padding: 2px;"></i></strong> 
+                      
+					<br>
+					<a class = "btn btn-first" href = "https://api.whatsapp.com/send?phone=27730208371"
+					 target ="_blank">Mtho</a><br>
+					
+					
+					<a class="btn btn-first" href="https://api.whatsapp.com/send?phone=27734090570"
+					 target ="_blank">Mandy</a>
+					 
+				</div>
 			</div>
 			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="6way multiplug.jpg">
-			      <img src="6way multiplug.jpg" alt="accessories" width="600" height="400">
-			    </a>
-			    <div class="desc">6 Way Multiplug With USB Charging Port<div class="sale">R220</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="5way multiplug.jpg">
-			      <img src="5way multiplug.jpg" alt="accessories" width="600" height="400">
-			    </a>
-			    <div class="desc">5 Way Multiplug  With USB Charging Port<div class="sale">R220</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="amplifySpeaker.jpg">
-			      <img src="amplifySpeaker.jpg" alt="accessories" width="600" height="400">
-			    </a>
-			    <div class="desc">Amplify Rechargable Bluetooth Speaker<div class="sale">R330</div></div>
-			  </div>
-			</div>
-			
-			<div class="clearfix"></div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="whiteSpeaker.jpg">
-			      <img src="whiteSpeaker.jpg" alt="accessories" width="600" height="400">
-			    </a>
-			    <div class="desc">Portable Bluetooth Speaker<div class="sale">R199</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="volkanoSpeaker.jpg">
-			      <img src="volkanoSpeaker.jpg" alt="accessories" width="600" height="400">
-			    </a>
-			    <div class="desc">Volkano Rechargable Bluetooth Speaker<div class="sale">R599</div></div>
-			  </div>
-			</div>
-			
-			<div class="responsive">
-			  <div class="gallery">
-			    <a target ="_blank" href="volkanoSpeaker1.jpg">
-			      <img src="volkanoSpeaker1.jpg" alt="accessories" width="600" height="400">
-			    </a>
-			    <div class="desc">Portable Volkano Bluetooth Speaker<div class="sale">R380</div></div>
-			  </div>
-			</div>
-							
-			<div class="clearfix"></div>
-			
+			<div class="col-sm-6 banner-info">
+				<div class = "page-footer font-small blue pt-4">
+				
+					Copyright[2020-08-23] YoChoice (PTY) LTD<br>
+					Created by Mthobisi Mahlangu
+					
+				</div> 
+			</div>		
 		</div>
-		
 	</div>
 	
-</div>
+	</header>
+	<!-- Java script for the read less or more button -->
 
-<!--  /div-->
-
-	<script>
-		var coll = document.getElementsByClassName("collapsible");
-		var i;
-	
-		for (i = 0; i < coll.length; i++) {
-	  		coll[i].addEventListener("click", function() {
-	 			this.classList.toggle("active");
-	 			var content = this.nextElementSibling;
-	 			if (content.style.maxHeight){
-	 				     content.style.maxHeight = null;
-				} else {
-	 			     content.style.maxHeight = content.scrollHeight + "px";
-	   			} 
-	  		});
-		}
-		
-	</script>
-			
-	<script>
-		var coll = document.getElementsByClassName("collapsible2");
-		var i;
-	
-		for (i = 0; i < coll.length; i++) {
-	  		coll[i].addEventListener("click", function() {
-	 			this.classList.toggle("active");
-	 				 var content2 = this.nextElementSibling;
-	 				 if (content2.style.maxHeight){
-	 				     content2.style.maxHeight = null;
-				    }
-	 				 else {
-	 			     	content2.style.maxHeight = content2.scrollHeight + "px";
-	   				 } 
-	  			});
-			}
-	</script>
-			
-		<script>
-			function myFunction() {
-	 		 var x = document.getElementById("myDIV");
-	 		 if (x.style.display === "none") {
-	 		   x.style.display = "block";
-	  		} else {
-	  			  x.style.display = "none";
-	  		}
-			}
-		</script>
-		
-		<script>
-			function myFunction1() {
-	 		 var x = document.getElementById("myDIV1");
-	 		 if (x.style.display === "none") {
-	 		   x.style.display = "block";
-	  		} else {
-	  			  x.style.display = "none";
-	  		}
-			}
-		</script>
-		
-		<script>
-			function myFunction2() {
-	 		 var x = document.getElementById("myDIV2");
-	 		 if (x.style.display === "none") {
-	 		   x.style.display = "block";
-	  		} else {
-	  			  x.style.display = "none";
-	  		}
-			}
-		</script>
-		
-		<script>
-			function myFunction3() {
-	 		 var x = document.getElementById("myDIV3");
-	 		 if (x.style.display === "none") {
-	 		   x.style.display = "block";
-	  		} else {
-	  			  x.style.display = "none";
-	  		}
-			}
-		</script>
-		
-		<script>
-			function myFunction4() {
-	 		 var x = document.getElementById("myDIV4");
-	 		 if (x.style.display === "none") {
-	 		   x.style.display = "block";
-	  		} else {
-	  			  x.style.display = "none";
-	  		}
-			}
-		</script>	
-		
-		
-		<script>
-		// Get the modal
-		var modal = document.getElementById("myModal");
-		
-		// Get the button that opens the modal
-		var btn = document.getElementById("myBtn");
-		
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-		
-		// When the user clicks the button, open the modal 
-		btn.onclick = function() {
-		  modal.style.display = "block";
-		}
-		
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-		  modal.style.display = "none";
-		}
-		
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-		  if (event.target == modal) {
-		    modal.style.display = "none";
-		  }
-		}
-		</script>	
-		
-	</body>
+	</div>
+</body>
 </html>
